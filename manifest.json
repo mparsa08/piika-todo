@@ -1,39 +1,43 @@
 {
-    "name": "برنامه کارها - Todo Piika",
-    "short_name": "کارها",
+    "name": "Todo Piika - برنامه مدیریت کارها و وظایف روزانه",
+    "short_name": "Todo Piika",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#6750A4",
     "theme_color": "#6750A4",
-    "description": "برنامه مدیریت کارها و وظایف روزانه",
+    "description": "برنامه مدیریت کارها و وظایف روزانه - Todo Piika - یک اپلیکیشن پیشرفته برای مدیریت کارها با قابلیت PWA",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "scope": "/",
     "lang": "fa",
     "dir": "rtl",
-    "categories": ["productivity", "utilities"],
+    "categories": [
+        "productivity",
+        "utilities",
+        "business"
+    ],
     "icons": [
-      {
-        "src": "icons/Icon-192.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/Icon-512.png",
-        "sizes": "512x512",
-        "type": "image/png"
-      },
-      {
-        "src": "icons/Icon-maskable-192.png",
-        "sizes": "192x192",
-        "type": "image/png",
-        "purpose": "maskable"
-      },
-      {
-        "src": "icons/Icon-maskable-512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "maskable"
-      }
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
     ]
-  }
+}
