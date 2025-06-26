@@ -30,20 +30,12 @@
 
   <title>Todo Piika - برنامه مدیریت کارها و وظایف روزانه</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="flutter_bootstrap.js" as="script">
 </head>
 <body>
-  <script>
-    window.addEventListener('load', function (ev) {
-      _flutter.loader.load({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        }
-      }).then(function (engineInitializer) {
-        return engineInitializer.initializeEngine();
-      }).then(function (appRunner) {
-        return appRunner.runApp();
-      });
-    });
-  </script>
+  <script src="flutter.js" defer></script>
+  <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
